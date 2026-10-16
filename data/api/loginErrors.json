@@ -1,0 +1,14 @@
+[
+  {
+    "case": "wrong credentials",
+    "body": { "username": "nobody", "password": "wrong" },
+    "status": 401,
+    "message": "username or password is incorrect"
+  },
+  {
+    "case": "empty body",
+    "body": {},
+    "status": 400,
+    "message": "username and password are not provided in JSON format"
+  }
+]

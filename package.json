@@ -1,0 +1,37 @@
+{
+  "name": "sdet-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "bddgen && playwright test",
+    "test:qa": "bddgen && cross-env TEST_ENV=qa playwright test",
+   "test:dev": "bddgen && cross-env TEST_ENV=dev playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:api": "playwright test --project=api",
+    "test:bdd": "bddgen && playwright test --project=bdd",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rploneda/SDET-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rploneda/SDET-challenge/issues"
+  },
+  "homepage": "https://github.com/rploneda/SDET-challenge#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4",
+    "cross-env": "^10.1.0",
+    "dotenv": "^18.0.7",
+    "playwright-bdd": "^9.2.1",
+    "zod": "^4.6.6"
+  }
+}

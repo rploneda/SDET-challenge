@@ -1,0 +1,5 @@
+[
+  { "title": "Wireless Mouse", "price": 19.99, "description": "Ergonomic 2.4GHz mouse", "image": "https://i.pravatar.cc/150", "category": "electronics" },
+  { "title": "Cotton T-Shirt", "price": 12.53, "description": "100% cotton, unisex", "image": "https://i.pravatar.cc/150", "category": "men's clothing" }
+  
+]
